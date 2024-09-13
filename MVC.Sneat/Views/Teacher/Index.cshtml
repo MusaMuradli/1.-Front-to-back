@@ -1,4 +1,4 @@
-﻿@model List<Student>
+﻿@model List<Teacher>
 @{
     ViewData["Title"] = "Home Page";
 }
@@ -23,7 +23,7 @@
                         </tr>
                     </thead>
                     <tbody class="table-border-bottom-0">
-                     @foreach (var item in Model)
+                        @foreach (var item in Model)
                         {
                             <tr>
                                 <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>@item.Name</strong></td>
@@ -73,4 +73,3 @@
         </div>
         <!--/ Basic Bootstrap Table -->
 
-        

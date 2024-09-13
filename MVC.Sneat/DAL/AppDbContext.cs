@@ -10,5 +10,6 @@ public class AppDbContext : DbContext
 
     }
     public DbSet<Student> Students { get; set; } = null!;
+    public DbSet<Teacher> Teachers { get; set; } = null!;
     public DbSet<Group> Groups { get; set; } = null!;
 }
